@@ -28,6 +28,12 @@
     font-family: 'Lobster', cursive;
     color: #FF0080;
   }
+  .firstCard {
+    border: 2px dashed #dfa0a0;
+  }
+  .cardParr {
+    border-bottom: 2px dashed #dfa0a0;
+  }
   p, button {
     font-family: 'Gloria Hallelujah', cursive;
   }
