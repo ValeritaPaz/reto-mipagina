@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#navegationBar {
+  background-color: #373c42;
+  color: #8b8b8b;
+  padding-left: 3%;
+}
+
+.bootstrap {
+  font-size: 120%;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.menu {
+  display: inline;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.menu:hover {
+  color: #fff;
+}
+
+.fa-bars {
+  border: 1px solid #8b8b8b;
+  color: #8b8b8b;
+  border-radius: 3px;
+  font-size: 1em;
+  visibility: hidden;
+  padding: 2%;
+}
+
+#photoBack {
+  background-image: url(../images/header.png);
+  height: 400px;
+  filter: grayscale(40%);
+}
+
+.mainTitle {
+  color: #000;
+  font-size: 600%;
+  letter-spacing: 2%; 
+  text-align: center;
+  font-weight: lighter;
+}
+
+.subTitle {
+  color: #000;
+  font-size: 400%;
+  letter-spacing: 2%;
+  text-align: center;
+  font-weight: lighter;
+}
+.sectionWhatTheyDo {
+  padding: 2%;
+}
+
+.aboutParr {
+  padding: 0 2% 2% 2%;
+}
+
+.sectionContact {
+  padding: 3%;
+}
+
+.subSectionTitle {
+  padding-top: 2%;
+  padding-left: 3%;
+  font-size: 0.9em;
+}
+
+.contactAddress {
+  padding-left: 3%;
+}
+
+.contact {
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+.fa-phone, .fa-envelope {
+  padding-right: 3%;
+}
+
+.mail {
+  text-decoration: none;
+  color: #3403F8;
+}
+
+.pigPhoto {
+  width: 300px;
+  height: 200px;
+}
+
+.card {
+  padding: 2% 0;
+}
+.cardParr {
+  width: 300px;
+}
+
+.findMore, .callAction {
+  margin-top: 5%;
+  padding: 3% 2%;
+  background-color: #373c42;
+  border: none;
+  border-radius: 3%;
+  color: #fff;
+  font-weight: bold;
+}
+
+.findMore:hover, .callAction:hover {
+  background-color: #dfa0a0;
+}
+
+
+#footer {
+  background-color: #373c42;
+  color: #fff;
+  text-align: center;
+  padding: 3% 0;
+  font-weight: bold;
+  font-size: 90%;
+  margin-top: 2%;
+}

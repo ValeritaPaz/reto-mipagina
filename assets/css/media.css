@@ -1,0 +1,48 @@
+@media all and (max-width: 720px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+	#navegationBar {
+    background-color: #dfa0a0;
+    color: #8b8b8b;
+	}
+  .bootstrap {
+    display: inline-block;
+    width: 50% !important;
+  }
+  .menu {
+    display: none;
+  }
+  .bars {
+    width: 50% !important;
+  }
+	.fa-bars {
+    visibility: visible;
+    float: right;
+  }
+  .fa-bars:hover {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  .mainTitle, .subTitle {
+    font-family: 'Lobster', cursive;
+    color: #FF0080;
+  }
+  p, button {
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+  .mail {
+    color: #dfa0a0;
+  }
+  .findMore, .callAction {
+    background-color: #dfa0a0;
+    border: 1px solid #dfa0a0;
+  }
+  .findMore:hover, .callAction:hover {
+  background-color: #373c42;
+  border: none;
+}
+  #footer {
+    background-color: #dfa0a0;
+  }
+}
